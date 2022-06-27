@@ -39,35 +39,18 @@ import java.util.Scanner;
 				
 				case 2:
 					
-						System.out.println("Dizideki Kaçýncý Elemaný Silmek Ýstiyorsunuz ?");
-						int sil=klavye.nextInt();               						
-						malzemeler.remove(sil-1);			        
-				        System.out.println("Listenin "+sil+(". Elemaný Silindi"));
+					
 					
 					break;
 
 				case 3:
-					 System.out.println("Dizinin Son Hali: ");
-				     for(int j=0;j<malzemeler.size();j++){
-				      System.out.println(malzemeler.get(j)); }
-					 break;
 				
 				case 4:
 				
 				
 				case 5:
 				
-					System.out.println("Dizideki En büyük numarayý bulunuz");
-					int max=0;
-					for( int i=0;i<l;i++) 
-					{
-						if ((Integer) a.get(i)>max) 
-						{
-							max=(Integer) a.get(i);
-						}
-					}
-					}
-					return max;
+				
 					break;				
 				
 				case 6:
